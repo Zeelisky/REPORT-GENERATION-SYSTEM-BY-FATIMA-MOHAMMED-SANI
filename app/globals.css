@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Invoice  */
+.export span {
+    float: right;
+    margin: 0 0 0 2%;
+}
+
+.export span:hover {
+    color: #0D6EFD;
+    cursor: pointer;
+}
+
+.tableHeader {
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 1% 1% 0;
+    margin: 5% 0 1%;
+}
+
+.tableHeader p {
+    padding: 0 0 0 2%;
+}
+
+form .invoice-hr {
+    margin:  1% 0 5%;
+}
+
+.tableBody .tableBodyRow {
+    margin: 1% 0 0;
+}
+
+.tableFooter {
+    margin: 5% 0 0;
+}
+
+/* Available stock page  */
+.stockTableHeader {
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 1% 1% 0;
+    margin: 0 0 1%;
+}
+
